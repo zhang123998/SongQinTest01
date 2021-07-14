@@ -1,0 +1,61 @@
+[ {
+  "uid" : "36efb05d69e59098",
+  "name" : "login02",
+  "time" : {
+    "start" : 1622899041050,
+    "stop" : 1622899041050,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "743f87080651fff6",
+  "name" : "login01",
+  "time" : {
+    "start" : 1622899041031,
+    "stop" : 1622899041031,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d05d0c8f8deef784",
+  "name" : "login01",
+  "time" : {
+    "start" : 1622899040915,
+    "stop" : 1622899040915,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54e2381bce734a2d",
+  "name" : "login01",
+  "time" : {
+    "start" : 1622899040919,
+    "stop" : 1622899040920,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9405d632e2836a5",
+  "name" : "shoping01",
+  "time" : {
+    "start" : 1622899041053,
+    "stop" : 1622899041054,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b38350bc7e5120ad",
+  "name" : "login01",
+  "time" : {
+    "start" : 1622899041038,
+    "stop" : 1622899041038,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

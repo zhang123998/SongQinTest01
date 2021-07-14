@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (2 + 4) == 2",
+      "children" : [ {
+        "name" : "login01",
+        "uid" : "54e2381bce734a2d",
+        "parentUid" : "b4e0e02124cc48106fc53df3765fb5f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622899040919,
+          "stop" : 1622899040920,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "4" ]
+      } ],
+      "uid" : "b4e0e02124cc48106fc53df3765fb5f3"
+    }, {
+      "name" : "AssertionError: assert (2 + 6) == 2",
+      "children" : [ {
+        "name" : "login01",
+        "uid" : "743f87080651fff6",
+        "parentUid" : "6bd7c304d97aa164e0ce8934dcd57d6a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622899041031,
+          "stop" : 1622899041031,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "6" ]
+      } ],
+      "uid" : "6bd7c304d97aa164e0ce8934dcd57d6a"
+    }, {
+      "name" : "AssertionError: assert (6 + 7) == 2",
+      "children" : [ {
+        "name" : "login01",
+        "uid" : "b38350bc7e5120ad",
+        "parentUid" : "d0479aaaedbc900988a30ce625aeeb80",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622899041038,
+          "stop" : 1622899041038,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "7" ]
+      } ],
+      "uid" : "d0479aaaedbc900988a30ce625aeeb80"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

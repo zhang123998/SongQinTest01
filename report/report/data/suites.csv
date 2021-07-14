@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 05 21:17:21 CST 2021","Sat Jun 05 21:17:21 CST 2021","0","test_case","testfunc01","TestLogin","","","login02",""
+"failed","Sat Jun 05 21:17:21 CST 2021","Sat Jun 05 21:17:21 CST 2021","0","test_case","testfunc01","TestLogin","","","login01",""
+"passed","Sat Jun 05 21:17:20 CST 2021","Sat Jun 05 21:17:20 CST 2021","0","test_case","testfunc01","TestLogin","","","login01",""
+"failed","Sat Jun 05 21:17:20 CST 2021","Sat Jun 05 21:17:20 CST 2021","1","test_case","testfunc01","TestLogin","","","login01",""
+"passed","Sat Jun 05 21:17:21 CST 2021","Sat Jun 05 21:17:21 CST 2021","1","test_case","testfunc01","Test_Shoping","","","shoping01",""
+"failed","Sat Jun 05 21:17:21 CST 2021","Sat Jun 05 21:17:21 CST 2021","0","test_case","testfunc01","TestLogin","","","login01",""

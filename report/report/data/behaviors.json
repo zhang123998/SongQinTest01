@@ -1,0 +1,103 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录login01",
+      "children" : [ {
+        "name" : "login01",
+        "uid" : "d05d0c8f8deef784",
+        "parentUid" : "d6d7bb5c456b2f80f169f80251874dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622899040915,
+          "stop" : 1622899040915,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1" ]
+      }, {
+        "name" : "login01",
+        "uid" : "54e2381bce734a2d",
+        "parentUid" : "d6d7bb5c456b2f80f169f80251874dff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622899040919,
+          "stop" : 1622899040920,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "4" ]
+      }, {
+        "name" : "login01",
+        "uid" : "743f87080651fff6",
+        "parentUid" : "d6d7bb5c456b2f80f169f80251874dff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622899041031,
+          "stop" : 1622899041031,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "6" ]
+      }, {
+        "name" : "login01",
+        "uid" : "b38350bc7e5120ad",
+        "parentUid" : "d6d7bb5c456b2f80f169f80251874dff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622899041038,
+          "stop" : 1622899041038,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "7" ]
+      } ],
+      "uid" : "d6d7bb5c456b2f80f169f80251874dff"
+    }, {
+      "name" : "登录login02",
+      "children" : [ {
+        "name" : "login02",
+        "uid" : "36efb05d69e59098",
+        "parentUid" : "00a592c66ee005ff0c809b31db06a83f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622899041050,
+          "stop" : 1622899041050,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00a592c66ee005ff0c809b31db06a83f"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "购物模块",
+    "children" : [ {
+      "name" : "shoping",
+      "children" : [ {
+        "name" : "shoping01",
+        "uid" : "c9405d632e2836a5",
+        "parentUid" : "df91f6064c5f1aca759d053bf8418a79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622899041053,
+          "stop" : 1622899041054,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df91f6064c5f1aca759d053bf8418a79"
+    } ],
+    "uid" : "5eae0680c8f6441d821d5a94ad24bbf5"
+  } ]
+}

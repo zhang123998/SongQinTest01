@@ -1,0 +1,92 @@
+{
+  "uid" : "813c878c7fb56181",
+  "name" : "test_login01[2-6]",
+  "fullName" : "test_case.testfunc01.TestLogin#test_login01",
+  "historyId" : "6ea3dba23d26428dcea4f701ecda7fe3",
+  "time" : {
+    "start" : 1622897861412,
+    "stop" : 1622897861413,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert (2 + 6) == 2",
+  "statusTrace" : "self = <test_case.testfunc01.TestLogin object at 0x00000245FE6FA850>, a = 2\nb = 6\n\n    @pytest.mark.parametrize('a,b', [(1, 1), (2, 4), (2, 6), (6, 7)])\n    def test_login01(self, a, b):\n        print('---test_login01---')\n>       assert a + b == 2\nE       assert (2 + 6) == 2\n\ntestfunc01.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1622897861312,
+      "stop" : 1622897861312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1622897861429,
+      "stop" : 1622897861429,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "testfunc01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BFADA0J"
+  }, {
+    "name" : "thread",
+    "value" : "10588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.testfunc01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  }, {
+    "name" : "b",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "813c878c7fb56181.json",
+  "parameterValues" : [ "2", "6" ]
+}
